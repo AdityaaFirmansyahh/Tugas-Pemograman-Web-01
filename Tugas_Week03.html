@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Kicthen</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+        
+        
+        header {
+            margin: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            display: flex;
+            background-color:rgb(3, 3, 3);
+           background: rgb(150, 51, 51);
+           justify-content: space-between;
+            align-items: center;
+            z-index: 99 ;
+        }
+        .bungkusan a {
+            position: relative;
+            font-size: 1.2em;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+        .judulweb {
+            color: white;
+            font-size: 2em;
+
+        } 
+        
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+    
+        li.navitem {
+            float: left;
+        }
+    
+        li.navitem a {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+        li.navitem a:hover {
+            background-color: #555;
+        }
+    
+        table{
+            border-color:#555;
+        }
+
+        .text-container{
+            text-align: center;
+        }
+
+        .centered-form {
+            width :300px;
+            margin: 0 auto;
+        }
+
+        .custom-submit-button {
+            background-color: rgb(150, 51, 51);
+            color: white;
+            border: 1;
+            padding: 2px 2px 2px;
+            margin: 1px 6px 1px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    
+    <header>
+
+        <p class="judulweb">Royal Kicthen</>
+        <nav class="bungkusan">
+        <a href="#home">Beranda</a>
+        <a href="#Food">Makanan</a>
+        <a href="#Drink">Minuman</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div class="centered-form">
+        <legend>
+            <b>Data Diri</b>
+        </legend>
+    <form>
+        <br>
+        <table>
+            <tbody>
+                <label for="nama">Nama : </label>
+                <br>
+                <input type="text" required/>
+                <br>
+                <br>
+            </tbody>
+              
+            <label for="hp">No Handphone : </label>
+             <input type="number" id="hp">
+             <br>
+             <br>
+
+            <label for="alamat">Alamat : </label>
+             <textarea cols="30" rows="1"></textarea>
+            <br>
+            <br>
+            
+            
+            <p>Paket Yang Dipilih : </p>
+            <br>
+            <input type="checkbox" name="Paket" id="Senin" value="Senin" />Senin
+            <input type="checkbox" name="Paket" id="Selasa" value="Selasa" />Selasa
+            <input type="checkbox" name="Paket" id="Rabu" value="Rabu" />Rabu
+            <input type="checkbox" name="Paket" id="Kamis" value="Rabu" />Kamis
+            <br>
+            <br>
+            
+            <label for="Tingkat Pedas">Tingkat Pedas : </label>
+            <select name:"Tingkat-Pedas" id="Tinkat Pedas">
+                <option value="Level 1">Level 1</option>
+                <option value="Level 2">Level 2</option>
+                <option value="Level 3">Level 3</option>
+            </select>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Pesan Sekarng" class="custom-submit-button">
+            <input type="reset" value="Batal"/>
+            
+        </table>
+    </form>
+</div>
+</p>
+</div>
+</body>
+</html>
