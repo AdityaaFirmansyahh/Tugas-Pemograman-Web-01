@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+
+    <style>
+
+        body {
+            background-image: url(bg6.jpg);
+            background-size: 25%;
+        }
+    
+        header.judul{
+            border:solid 3px;
+            border-color: #F99417;
+            width: 100%;
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 1px 1px 1px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-family: 'Arial';
+        }
+     
+        legend{
+            font-family: 'Arial';
+            color: aliceblue;
+            font-size: 20px;
+            margin-left: 16rem;
+        }
+    
+        fieldset{
+            border-color: #F99417;
+            margin-right: 25rem;
+            margin-left: 25rem;
+            margin-top: 4rem;
+    
+        }
+    
+        fieldset.deskripsi{
+            border-color: #F99417;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+    
+        article{
+            width: 60%;
+            float: right;
+        }
+    
+        aside{
+            width: 10%;
+            float: left;
+            margin-left: 4rem;
+            margin-top: 1rem;
+        }
+
+        h3{
+            color: aliceblue;
+        }
+    
+        p{
+            font-family: 'Arial';
+            color:aliceblue;
+        }
+    
+        footer{
+            border:solid 3px;
+            background-color: #555;
+            border-color: #F99417;
+            text-align: center;
+        }
+
+        section.menu{
+            color: aliceblue;
+            width: 30%;
+            float: right;
+            
+        }
+
+        section.musik{
+            color: aliceblue;
+            width: 20%;
+            float: left;
+            
+        }
+
+        section.menu{
+            color: aliceblue;
+            width: 20%;
+            float: right;
+            
+        }
+        section.sosmed{
+            color: aliceblue;
+            width: 30%;
+            float: left;
+            
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <header class="judul"><h4>Profil Mahasiswa</h4></header>
+    <fieldset>
+        <legend>Profil Mahasiswa</legend>
+        
+            <aside>
+                <img src="data:image/png;base64,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" alt="stikman" width="150">
+            </aside>
+
+            <article>
+                <div>
+                    <h3>Data Diri</h3>
+                    <p>Nama : Aditya Firmansyah</p>
+                    <p>Usia : 19</p>
+                    <p>Prodi :Teknik Informatika </p>
+                    <p>Rombel : TI-06</p>
+                    <p>Alamat : Jln.Wr Supratman No.28</p>
+                </div>
+            </article>
+    </fieldset>
+    
+    <fieldset class="deskripsi">
+        <section class="menu">
+            <h3>Favorit Menu</h3>
+            <img src="foto1.jpg" alt="" width="100">
+            <img src="foto2.jpg" alt="" width="100">
+            <br>
+            <img src="foto3.jpg" alt="" width="100">
+            <img src="foto4.jpg" alt="" width="100">
+        </section>
+
+        <section class="lagu">
+            <h3>Favorit Musik</h3>
+            <video width="320" height="240" controls>
+                <source src="musik.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="sosmed">
+            <h3>Sosmed</h3>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <a href="https://instagram.com/adityaafmn?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+            <br><br>
+                <ion-icon name="logo-facebook"></ion-icon>    
+                <a href="https://x.com/elonmusk?t=aSgpeOxNB3gEIFPZTeodAA&s=09">Twitter</a>
+            <br><br>
+            <ion-icon name="logo-twitter"></ion-icon>    
+            <a href="https://www.facebook.com/groups/475544404155783/?ref=share&mibextid=Qo0Uov">Facebook</a>
+        </section>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+
+</body> 
+</html>
