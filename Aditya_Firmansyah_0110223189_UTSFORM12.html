@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <style>
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 19px 19px;
+            text-decoration: none;
+        }
+
+        li.navitem a:hover {
+            background-color: rgb(134, 130, 123);
+        }
+
+        body{
+            background-color:whitesmoke;
+        }
+    
+
+    
+        .left-form {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            width: 80%;   
+            height: 90vh;
+        }
+        .custom-submit-reset {
+            background-color: rgb(60, 54, 66);
+            color: white;
+            border: 1px;
+            padding: 2px 10px;
+        }
+
+        img {
+            margin-left: 1cap;
+        }
+
+        footer{
+            background-color: #333;
+            color: white;
+            height: 30px;
+        }
+
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="container"></div>
+        <ul class="navbar">
+    <li class="navitem"><a href="#home">Beranda</a></li>
+    <li class="navitem"><a href="#about">Tentang Kami</a></li>
+    <li class="navitem"><a href="#services">Layanan</a></li>
+    <li class="navitem"><a href="#contact">Kontak</a></li>
+    </ul>
+    <div class="left-form">
+    <img src="logo.png" alt="Logo S Registrasi">
+    <form action="Registrasi_Kendaraan.html">
+        <h1>Registrasi KendaraanAnda</h1>
+
+        <fieldset>
+
+        <label for="status">Status :</label><br>
+        <input type="radio" id="mahasiswa" name="mahasiswa" required >Mahasiswa
+        <input type="radio" id="status" name="status" required>Dosen
+        <br ><br>
+
+        <label for="nim">NIM/NIDN:</label><br>
+        <input type="text" id="nim" name="nim" required ><br >
+   
+        <label for="nama_lengkap">Nama Lengkap :</label><br>
+        <input type="text" id="nama_lengkap" name="nama_lengkap" required ><br ><br>
+
+        <label for="prodi">Prodi :</label>
+        <select id="prodi" name="prodi">
+          <option value="sistem_operasi">Sisten Operasi</option>
+          <option value="teknik_informatika">Teknik Informatika</option>
+          <option value="bisnis_digital">Bisnis Digital</option>
+        </select><br><br>
+
+        <label for="jenis_kendaraan">Jenis Kendaraan :</label><br>
+        <input type="radio" id="jenis_kendaraan" name="jenis_kendaraan" required>Motor
+        <input type="radio" id="mobil" name="mobil" required>Mobil
+        <br ><br>
+        <label for="nopol">No Polisi :</label><br>
+        <input type="number" id="nopol" name="nopol" required ><br ><br>
+
+        <label for="merk">Merk :</label><br>
+        <input type="text" id="merk" name="merk" required >
+        <input type="file">
+        <br ><br>
+  
+        <input type="submit" value="Daftar" >
+    </fieldset>
+    </form>
+    </div>
+    <footer>
+        <div class="copy">
+            <p>Copy Rights to</p>
+        </div>
+    </footer>
+</body>
+</html>
